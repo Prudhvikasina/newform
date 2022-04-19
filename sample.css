@@ -1,0 +1,80 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: red;
+
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 35px;}
+  }
+  h1{
+    margin-left: 293px;
+  }
+  .dropdown{
+    margin-left: 1225px;
+    margin-top: -53px
+  }
+ 
+.card{
+    margin-top: -797px;
+}
+.demo1{
+    margin-left: 300px;
+}
+.maps{
+    float: right;
+}
+table{
+    margin-block-end: 902px;
+}
+.dropdown{
+    float: left;
+}
+body{
+    overflow-x:hidden ;
+}
+.demo4{
+    margin-inline-start: -89px;
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  button{
+    min-width: 135px;
+  }
+  a{
+    text-decoration: auto;
+    font-size: 15px;
+  }
